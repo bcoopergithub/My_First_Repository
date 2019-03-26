@@ -1,0 +1,22 @@
+{
+    "editor.tokenColorCustomizations": {
+        "comments": "#f6fa00"
+    }
+
+
+
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.temporaryFileName": "RubyTemp",
+    "code-runner.enableAppInsights": false,
+    "code-runner.showExecutionMessage": false,
+    "code-runner.runInTerminal": true,
+    "code-runner.defaultLanguage": "ruby",
+    "files.trimTrailingWhitespace": true,
+    { "trailing-spaces.includeEmptyLines": false }
+    "trailing-spaces.trimOnSave": true
+    "better-comments.highlightPlainText": true
+    "indentRainbow.includedLanguages": [ruby]
+
+}
+
+
