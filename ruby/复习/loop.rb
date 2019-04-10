@@ -4,16 +4,16 @@ loop 里的变量不会影响全局变量
 
 current = 2019
 (1..10).each do |current|
-  current = current + 1
-  puts current
+current = current + 1
+puts current
 end
 puts current    # 2019
-
+        
 name = "Bob"
 counter = 0
 ('Ted'..'Zed').each do |n|
-  name = n
-  puts name
+name = n
+puts name
 end
 puts name   #Zed
 
@@ -23,7 +23,7 @@ if false
 name = "Bob"
 end
 puts name
-
+# TED   如果if 判断false,直接跳过if loop,运行之后的程序
 # infinite loop
 while true
     # do something
@@ -56,7 +56,7 @@ when loop
 
 time 是一种方法
 次数.times do
-    执行语句
+#   执行语句
 end
 # return只存在于method里, return可以返回任何datatype ,或者array,hash,method
 

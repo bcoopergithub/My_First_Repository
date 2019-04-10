@@ -1,9 +1,18 @@
 # DATA_TYPE
 
+Number => "interger","Float",
+Strings
+Boleans => "true","false"
+Symbols
+nil
 
+a = [1,2,3]
+a.each do |x|
+    puts x
+end
 
 # comment
-#To create a ruby comment you insert a hashtag # at the front of the line.
+#To create a ruby comment you insert a hashtag # at the front of the
 
 # this is a comment
  # string interpolation is "#{}""
@@ -16,10 +25,14 @@
 #string
 
 
-
+print "123".split(,) #把string转换成array
 name = 'harrison'
-name.upcase
+name.upcase #不改变 name的内容
 name.downcase
+
+name.upcase! #改变 name的内容
+! #意思就是改变变量本身
+
 name.capitalize
 "Cooper".reverse
 num = "1"
@@ -38,7 +51,39 @@ puts "my name is harrison\nmalone"  换行行用\n
 => my name is harrison
 malone
 # non printing character, \n inserts line break in this case
+str.chop
+移除 str 中的最后一个字符。
 
+str.capitalize
+把字符串转换为大写字母显示。
+
+fergus = "christmas tree"
+beer = fergus
+puts fergus    =>christmas tree
+puts beer     =>christmas tree
+
+a = "hello"
+puts a.capitalize! => "Hello"
+
+puts a[1] #=> e
+
+
+a << "world"
+puts a   #=> "hello world"
+puts a[2,3]  #第3位开始,也可以认为是第二个之后的3个字符
+puts a[2..3] #第3位到第4位
+a << 33   #加入33就没有用,string不能和interger相加
+
+
+store them in variables
+
+this_var = 0 # pass interger 0 to the virable this_var
+this_string = "a string" # pass string
+x = 5.5
+badly_named = x * 7  work out 7
+    puts "Hello, World!"
+  end of variable which is 5.5
+nigel = "one " + " "two " + "three.” concatenate
 
 #numbers
 1 + 1
@@ -77,6 +122,12 @@ true != true
 # => false
 
 
+
+if "a"   #coercion 自动从string 变成 boolean
+    puts "ddd"
+    end
+
+
 puts ("THIS IS TEST ").downcase # this is test
 "this is test".upcase # THIS IS TEST
 a= "hello\b"
@@ -86,15 +137,6 @@ print a
 
 
 
-str.chop
-移除 str 中的最后一个字符。
-
-str.capitalize
-把字符串转换为大写字母显示。
-
-print "ddddd"
-a= gets
-print a
 
 some_var = "hello"
 char_arr = some_var.split(::)
@@ -112,27 +154,27 @@ b= [4,5,6]
 a= a + b
 puts a
 
-#         floats
-# -Booleans(true/false)
-# -symbols(used in hashes)
-# -nil is nil   in if , nil is false  nil can't calculate
+        floats
+-Booleans(true/false)
+-symbols(used in hashes)
+-nil is nil   in if , nil is false  nil can't calculate
 
-# Control Flow
-# -if/else(beoolean)
-# -Loop
-#     -while
-#     -each do |item|
-# fruits.each do | fruit |
-#     puts fruit
-# end
+Control Flow
+-if/else(beoolean)
+-Loop
+    -while
+    -each do |item|
+fruits.each do | fruit |
+    puts fruit
+end
 
-#     each_with_index |item,index| ？？？？？
+    each_with_index |item,index| ？？？？？
 
-# example
-# fruits.hash = ["apple", "banana", "orange"]
+example
+fruits.hash = ["apple", "banana", "orange"]
 
 
-# fruits.hash.each_with_index do | fruit, i |
-#     puts "I am #{fruit} and my index is #{i}"
-# end
+fruits.hash.each_with_index do | fruit, i |
+    puts "I am #{fruit} and my index is #{i}"
+end
 

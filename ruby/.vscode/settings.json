@@ -1,0 +1,40 @@
+
+
+    {
+        "files.autoSave": "afterDelay",
+        "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
+        "editor.renderWhitespace": "none",
+        "editor.renderControlCharacters": false,
+        "explorer.confirmDelete": false,
+        "code-runner.clearPreviousOutput": true,
+        "code-runner.cwd": "/mnt/c/Users/gjwtc/Desktop/gentech",
+        "code-runner.defaultLanguage": "ruby",
+        "window.zoomLevel": 0,
+        "code-runner.clearPreviousOutput": true,
+        "code-runner.temporaryFileName": "RubyTemp",
+        "code-runner.showExecutionMessage": false,
+        "workbench.colorCustomizations": {},
+        "workbench.colorTheme": "Feel Good LY",
+        "glassit.alpha": 255,
+        "explorer.confirmDragAndDrop": false,
+        "liveServer.settings.donotShowInfoMsg": true,
+        "editor.autoClosingQuotes": "never",
+        "workbench.editor.tabCloseButton": "left",
+        "editor.autoClosingBrackets": "beforeWhitespace",
+        "workbench.activityBar.visible": false,
+        "workbench.statusBar.visible": false,
+        "editor.minimap.enabled": false,
+        "search.location": "panel",
+        "editor.wordWrap": "on",
+        "editor.wordWrapColumn": 180,
+        "files.trimTrailingWhitespace": true,
+        "editor.renderLineHighlight": "gutter",
+        "window.menuBarVisibility": "toggle",
+        "materialTheme.accent": "Indigo",
+        "workbench.iconTheme": "material-icon-theme",
+
+
+
+
+
+    }
